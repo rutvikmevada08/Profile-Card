@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f5f7fb;
+            font-family: Arial, sans-serif;
+        }
+
+        .main{
+            width: 320px;
+            background-color: #ffffff;
+            border-radius: 18px;
+            padding: 30px 20px;
+            text-align: center;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+            border: 1px solid #f1f1f1;
+        }
+
+        .profile-title{
+            font-size: 28px;
+            font-weight: bold;
+            color: #444;
+            margin-bottom: 20px;
+        }
+
+        .avatar{
+            width: 150px;
+            height: 150px;
+            margin: auto;
+            border-radius: 50%;
+            background-image: url("https://tse1.mm.bing.net/th/id/OIP.AZvFODn5GsAJiUaq6WyPwgHaHa?rs=1&pid=ImgDetMain&o=7&rm=3");
+            background-size: cover;
+            background-position: center;
+            border: 4px solid #dbeafe;
+        }
+
+        .name h2{
+            font-size: 24px;
+            color: #222;
+            margin-top: 20px;
+            margin-bottom: 6px;
+        }
+
+        .name p{
+            font-size: 16px;
+            color: #777;
+        }
+
+        .submit{
+            margin-top: 25px;
+        }
+
+        .submit button{
+            width: 120px;
+            height: 42px;
+            border: none;
+            border-radius: 10px;
+            background-color: #3b82f6;
+            color: white;
+            font-size: 15px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .submit button:hover{
+            background-color: #2563eb;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="main">
+
+        <div class="profile-title">
+            Profile
+        </div>
+
+        <div class="avatar"></div>
+
+        <div class="name">
+            <h2>Rutvik Mevada</h2>
+            <p>MERN Developer</p>
+        </div>
+
+        <div class="submit">
+            <button>Follow</button>
+        </div>
+
+    </div>
+
+</body>
+</html>
